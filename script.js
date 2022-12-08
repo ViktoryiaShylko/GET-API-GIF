@@ -1,10 +1,11 @@
 let input = document.querySelector(".search");
 let btn = document.querySelector("#btn");
 let result = document.querySelector("#result");
-let array = [];
+
 
 btn.addEventListener("click", (e) => {
   result.innerHTML = "";
+  let array = [];
   e.preventDefault();
   let inputVal = input.value;
 
